@@ -5,7 +5,7 @@ SVG playing cards for the web.
 
 All you need is the playing-cards.min.css file, all of the SVG's are included in the file as data-uri's. The SVG's are optimised with SVGO (via grunt-svgmin) before being compiled into the css.
 
-Then to show a card:
+To show a card:
 
     <!-- Ace of Spades -->
     <span class="pcard-as"></span>
@@ -18,6 +18,8 @@ Then to show a card:
 
     <!-- 10 of hearts -->
     <span class="pcard-10h"></span>
+
+It doesn't have to be a span, it can be a div or probably any other sensible choice of element.
 
 ## Building
 
