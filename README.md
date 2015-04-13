@@ -3,7 +3,7 @@ SVG playing cards for the web.
 
 ## How to use
 
-All you need is the playing-cards.min.css file, all of the SVG's are included in the file as data-uri's. The SVG's are optimised with SVGO (via grunt-svgmin) before being compiled into the css.
+All you need is the playing-cards.min.css file, all of the SVG's are included in the file as data-uri's. The SVG's are optimised with SVGO (via grunt-svgmin) before being compiled into the css. The file weighs in at approx 1.2MB, pretty good for 52 images!
 
 To show a card:
 
@@ -25,7 +25,7 @@ It doesn't have to be a span, it can be a div or probably any other sensible cho
 
 Clone the repo and run `npm install` to install the dependencies.
 
-`grunt` will do a build and `grunt watch` will monitor the LESS file for changes and do a build when changes are made.
+`grunt` will do a build and `grunt watch` will monitor the LESS and SVG files for changes and do a build when changes are made.
 
 ## Attribution
 
