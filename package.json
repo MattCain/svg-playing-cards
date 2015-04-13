@@ -1,0 +1,29 @@
+{
+  "name": "svg-playing-cards",
+  "version": "0.1.0",
+  "description": "SVG playing cards for the web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattCain/svg-playing-cards.git"
+  },
+  "keywords": [
+    "playing",
+    "cards"
+  ],
+  "author": "Matt Cain (caindev.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattCain/svg-playing-cards/issues"
+  },
+  "homepage": "https://github.com/MattCain/svg-playing-cards",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "~0.12.2",
+    "grunt-contrib-less": "~1.0.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-data-uri": "~0.2.0",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-svgmin": "~2.0.1",
+    "grunt-contrib-clean": "~0.6.0"
+  }
+}
