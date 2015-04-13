@@ -43,7 +43,7 @@ module.exports = (grunt) ->
 
       watch:
          less:
-            files: ["*.less"],
+            files: ["*.less", "imgs/*.svg"],
             tasks: ["default"]
    })
    
