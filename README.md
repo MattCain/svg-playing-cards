@@ -3,7 +3,7 @@ SVG playing cards for the web.
 
 ## How to use
 
-All you need is the playing-cards.min.css file, all of the SVG's are included in the file as data-uri's. The SVG's are optimised with SVGO (via grunt-svgmin) before being compiled into the css. The file weighs in at approx 1.2MB, pretty good for 52 images!
+All you need is the playing-cards.min.css file, all of the SVG's are included in the file as data-uri's. The SVG's are optimised with SVGO (via grunt-svgmin) before being compiled into the css. The file weighs in at approx 1.2MB, which is pretty good for a full deck of cards.
 
 To show a card:
 
