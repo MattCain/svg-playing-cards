@@ -19,6 +19,9 @@ To show a card:
     <!-- 10 of hearts -->
     <span class="pcard-10h"></span>
 
+    <!-- card back -->
+    <span class="pcard-back"></span>
+
 It doesn't have to be a span, it can be a div or probably any other sensible choice of element.
 
 ## Building
